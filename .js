@@ -53,7 +53,6 @@ for (let element of stringArray ) {
 console.log (element)
 element.new = 'null'
 }
-stringArray.push({usersAnswer : 'null'})
 console.log (stringArray);
 
 //Есть массив произвольных чисел:
