@@ -51,7 +51,7 @@ for (let i = 1; i < stringArray.length; i += 2) {
 }];
 for (let element of stringArray ) {
 console.log (element)
-element.new = 'null'
+element.new = null
 }
 console.log (stringArray);
 
