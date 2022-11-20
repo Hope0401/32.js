@@ -110,3 +110,12 @@ let nums = [5, 4, 3, 8, 0]
     newNums.push ( nums[i] ) ;
    }
    console.log (newNums);
+   
+// Существует массив объектов, описывающих пользователей, например:
+//const users = [{name: 'Vasya', age: 23}, {name: 'Olya', age: 12}, {name: 'Anna', age: 22}, {name: 'Alex', age: 18}, {name: 'Valery', age: 8}]
+//Пройти в цикле по массиву и вывести имена всех пользователей, возраст которых больше 15.
+ let users = [{name: 'Vasya', age: 23}, {name: 'Olya', age: 12}, {name: 'Anna', age: 22}, {name: 'Alex', age: 18}, {name: 'Valery', age: 8}]
+            for (let prop in users) {
+                if ( users[prop] >= 15) 
+                console.log (prop)
+                }
